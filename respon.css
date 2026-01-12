@@ -1,0 +1,53 @@
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 10px;
+  }
+
+  header .heading h2 {
+    font-size: 1.2em;
+  }
+
+  nav ul li {
+    display: block;
+    width: 100%;
+  }
+
+  nav ul li a {
+    padding: 10px;
+    display: block;
+  }
+
+  .slideshow-container img {
+    height: 300px;
+  }
+
+  .selling-points ul li {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .testimonial ul li {
+    width: 100%;
+  }
+
+  footer ul {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 1.5em;
+  }
+
+  .slideshow-container img {
+    height: 200px;
+  }
+
+  .fixedbutton {
+    position: static;
+    text-align: center;
+  }
+}
